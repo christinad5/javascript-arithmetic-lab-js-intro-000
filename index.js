@@ -23,11 +23,8 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  if (a === a.toString) {
-    return parseInt('a', 10);
-  } else if (a === 'sldkjflksjf') {
-    return "NaN";
-  }
+  var parse = parseInt(a, 10)
+  return parse
 }
 
 
